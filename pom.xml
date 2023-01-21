@@ -7,6 +7,17 @@
   <version>1.0-SNAPSHOT</version>
   <name>MavenHelloWorldProject</name>
   <url>http://maven.apache.org</url>
+  
+  
+  <plugin>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.7.0</version>
+    <configuration>
+        ...
+    </configuration>
+</plugin>
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
